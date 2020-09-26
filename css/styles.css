@@ -1,0 +1,259 @@
+
+body {
+    font-family: "Montserrat";   
+  
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+
+  p {
+      color: #8f8f8f;
+  }
+
+
+
+
+nav {
+position: fixed;
+}
+
+
+  .navbar {
+    padding: 0 0 4.5rem;
+  
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+
+  #title {
+
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+  background-size: cover;
+    color: #fff;
+    text-align: left;
+  
+  }
+  
+  #title .container-fluid {
+    padding: 5% 5% 20% 5%;
+  }
+
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    padding: 0 0 2rem;
+    color: #fff;
+   
+  }
+  .tag-heading {
+    font-family: "Montserrat-Black";
+    font-size: 2rem;
+    color: #8f8f8f;
+    padding: 0 0 2rem;
+  }
+
+
+
+/* About Section */
+
+#about {
+text-align: center;
+  }
+  
+  #about .container-fluid {
+    padding: 5% 5% 5%;
+  }
+
+
+
+  .about-title {
+    font-size: 1.5rem;
+    color: #8f8f8f;
+    font-weight: bold;
+  }
+
+  .about-description {
+    color: #8f8f8f;
+  }
+  
+  .about-box {
+    padding: 4%;
+    
+  }
+  
+  
+  .about-img {
+    width: 50%;
+   
+  }
+  
+
+
+
+/* Features Section */
+
+#features {
+    text-align: center;
+}
+
+#features .container-fluid {
+  padding: 5% 5% 5%;
+  }
+  
+  
+  .features-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #8f8f8f;
+    font-weight: bold;
+  }
+  
+  .features-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  .features-description {
+    color: #8f8f8f;
+  }
+  
+
+/* How it works section */
+
+
+
+#work {
+  text-align: center;
+    }
+    
+#work .container-fluid {
+  padding: 5% 5% 5%;
+    }
+
+  .work-title {
+    font-size: 1.5rem;
+    color: #8f8f8f;
+    font-weight: bold;
+  }
+
+  .work-description {
+    color: #8f8f8f;
+  }
+  
+  
+  .work-box {
+    padding: 4%;
+  }
+  
+  .work-img {
+    width:50%;
+  }
+
+#relax {
+  text-align: center;
+
+}
+
+#relax .container-fluid {
+  padding: 5% 5% 5%;
+}
+
+
+
+
+/* Contact Section */
+
+
+#contact {
+    text-align: center;
+    
+}
+
+  #contact .container-fluid {
+    padding: 3% 5% 3%;
+  }
+  
+  
+  
+  
+  address {
+    color: #8f8f8f;
+    padding: 0 18px;
+  }
+  
+  .email {
+    color: #8f8f8f;
+  }
+
+  .colored-section {
+    position: relative;
+    width: 100%;
+    background-image: url(../images/sides.png);
+    background-repeat: no-repeat;
+   
+  
+  }
+
+
+
+  @media screen and (max-width:1000px) {
+
+.big-heading {
+  font-size: 5rem;
+}
+
+.tag-heading {
+  font-size: 2.5rem;
+}
+
+.about-title {
+  font-size: 4rem;
+}
+
+.about-description {
+  font-size: 2rem;
+}
+  
+  
+    .work-title {
+      font-size: 4rem;
+    }
+    
+    .work-description {
+      font-size: 2rem;
+    }
+   
+    address {
+      font-size: 2rem;
+    }
+
+
+
+  }
+
+
+
+  @media screen and (max-width:1400px) {
+ 
+      
+
+
+  }
