@@ -2,11 +2,8 @@
 body {
     font-family: "Montserrat";   
     background-image: url('../images/bg.png');
-    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
-    /* background-repeat: repeat; */
-    /* padding-bottom: 5%; */
     text-align: center;
   }
 
@@ -23,10 +20,7 @@ hr {
   width: 400px
 
 }
-/* 
-.container-fluid{
-  padding: 7% 15%;
-} */
+
 
 
 .header{
@@ -36,7 +30,7 @@ hr {
 
 
 
-.navbar{ padding: 0 5rem ;}
+.navbar{ padding: 3% 5rem ;}
 
 .nav-link { 
     color: #8f8f8f; 
@@ -84,7 +78,9 @@ hr {
      }
     
 .heading {
+  margin-top: 5rem;
     padding: 5rem;
+   
    
 }
       
@@ -120,12 +116,14 @@ color: #fff;
   }
 
 
-
+.about-box {
+  padding: 4%;
+}
   
   .about-img {
     width: 60%;
-    padding: 4%;
-  } */
+
+  } 
 
 
 
