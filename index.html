@@ -2,106 +2,145 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Signature Touch Studio</title>
+    <meta charset="utf-8">
+    <title>Signature Touch Studio - Home</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 </head>
 
 <body>
-    <section class="header" id="title">
 
-        <div class="container-fluid">
-          
-          <!-- Nav Bar -->
-    
-          <nav class="navbar navbar-expand-lg navbar-dark">
-    
-            <a class="navbar-brand" href="#title">ASMR</a>
-    
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    
-              <ul class="navbar-nav ml-auto">
+
+<header class="header" id="title">
+
+    <!-- <div class="overlay"></div> -->
+
+<div class="container-fluid">
+
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#title">ASMR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#title">Home</a>
+                    <a class="nav-link active" data-value="home" href="#title">Home</a> 
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" data-value="about" href="#about">About</a> 
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#features">Features</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#work">How it Works</a>
-                </li>          
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link " data-value="Gallery" href="#features">Gallery</a>
                 </li>
-              </ul>   
-            </div>
-          </nav>
-        
-          <!-- Title -->           
-              <h1 class="big-heading">Signature Touch Studio.</h1>
-              <p class="tag-heading">Purest form of Relaxation</p>
-        </div>   
-      </section>
-
-      <!-- About Section -->
-
-      <section class="white-section" id="about">
-
-        <div class="container-fluid">
-    
-          <div class="row">
-            
-            <div class="about-box col-lg-6">
-           <img class="about-img" src="images/abouta.png" alt="About-Asmr">
-            </div>
-    
-            <div class="about-box col-lg-6">
-              <h3 class="about-title">About</h3>
-              <p class="about-description">ASMR, which stands for autonomous sensory meridian response, is still a relatively new creation. It describes a feeling of euphoric tingling and relaxation that can come over someone when he or she watches certain videos or hears certain sounds.</p> 
-              
-              <p class="about-description">What kind of visual or audio clips can create such a lovely feeling? It might surprise you, but the videos are of people doing incredibly simple, quiet, calming tasks, such as folding towels, brushing their hair, or flipping magazine pages.</p>
-            </div>
-    
-         
-          </div>
-    
-    
+                <li class="nav-item">
+                    <a class="nav-link " data-value="how it works" href="#work">How it Works</a>
+                 </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="#rates" href="#">Rates</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="contact" href="#contact">Contact</a> 
+                </li>
+            </ul>
         </div>
-      </section>
-    
+    </nav>
 
-<!-- Features Section -->
 
-<section class="colored-section" id="features">
+ <!-- Title -->
+ <div class="heading">
+    <h1 class="big-heading">Signature Touch Studio.</h1>
+    <p class="tag-heading">Purest form of Relaxation</p>
+ 
+  </div>
+  </div>
+  </div>
+
+
+</header>
+
+<hr>
+  
+ <!-- About Section -->
+
+  <section class="white-section" id="about">
+
+    <div class="container-fluid">
+      <div class="about-heading">
+        <h3>About</h3>
+      </div>
+      <div class="row">
+
+        <div class="about-box col-lg-6">
+          <img class="about-img" src="images/abouta.png" alt="About-Asmr">
+        </div>
+
+        <div class="about-box col-lg-6">
+          <!-- <h3 class="about-title">About</h3> -->
+          <p class="about-description">ASMR, which stands for autonomous sensory meridian response, is still a
+            relatively new creation. It describes a feeling of euphoric tingling and relaxation that can come over
+            someone when he or she watches certain videos or hears certain sounds.</p>
+
+          <p class="about-description">What kind of visual or audio clips can create such a lovely feeling? It might
+            surprise you, but the videos are of people doing incredibly simple, quiet, calming tasks, such as folding
+            towels, brushing their hair, or flipping magazine pages.</p>
+        </div>
+
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <hr>
+
+
+
+ <!-- Features Section -->
+
+ 
+
+
+
+  <section class="colored-section" id="features">
 
     <div id="features-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
-
+        <div class="features-heading">
+          <h2>Features</h2>
+        </div>
 
         <div class="carousel-item active container-fluid">
+          <!-- <div class="features-heading">
+            <h2>Features</h2>
+          </div> -->
 
-          <h2 class="features-text">Whisper</h2>
+          <h6 class="features-text">Whisper</h6>
           <img class="features-image" src="images/whispering.png" alt="Whisper">
           <p class="features-description">This is the most popular ASMR trigger and is usually some
             body's first introduction to ASMR.</p>
@@ -109,8 +148,8 @@
 
 
         <div class="carousel-item container-fluid">
-          <h2 class="features-text">Scratching & Tapping</h2>
-          <img class="features-image" src="images/scratching.png" alt="Scratching">
+          <h6 class="features-text">Scratching & Tapping</h6>
+          <img class="features-image" src="images/eatinga.png" alt="Scratching">
           <p class="features-description">Scratching and tapping can be a
             very relaxing ASMR trigger. This
             can be ASMRtists touching
@@ -120,8 +159,8 @@
         </div>
 
         <div class="carousel-item container-fluid">
-          <h2 class="features-text">Physical Touch</h2>
-          <img class="features-image" src="images/touch.png" alt="Touch">
+          <h6 class="features-text">Physical Touch</h6>
+          <img class="features-image" src="images/hairbrush.png" alt="Touch">
           <p class="features-description">A gentle touch on the skin is
             also an ASMR trigger, though
             this is more of an in-person
@@ -131,7 +170,7 @@
         </div>
 
         <div class="carousel-item container-fluid">
-          <h2 class="features-text">Personal Attention</h2>
+          <h6 class="features-text">Personal Attention</h6>
           <img class="features-image" src="images/attentiona.png" alt="Attention">
           <p class="features-description">Personal attention ASMR
             triggers create an
@@ -141,7 +180,7 @@
         </div>
 
         <div class="carousel-item container-fluid">
-          <h2 class="features-text">Hair Play</h2>
+          <h6 class="features-text">Hair Play</h6>
           <img class="features-image" src="images/hairbrush.png" alt="Brushing">
           <p class="features-description">Hair play causes a
             powerful sensation
@@ -152,7 +191,7 @@
         </div>
 
         <div class="carousel-item container-fluid">
-          <h2 class="features-text">Eating</h2>
+          <h6 class="features-text">Eating</h6>
           <img class="features-image" src="images/eatinga.png" alt="Eating">
           <p class="features-description">Watching somebody eat
             can be a disgusting
@@ -165,8 +204,8 @@
         </div>
 
         <div class="carousel-item container-fluid">
-          <h2 class="features-text">Blowing</h2>
-          <img class="features-image" src="images/blowing.png" alt="lady-profile">
+          <h6 class="features-text">Blowing</h6>
+          <img class="features-image" src="images/whispering.png" alt="lady-profile">
           <p class="features-description">Blowing, mostly into
             someone's ear, gives
             them the feeling of the
@@ -178,8 +217,8 @@
         </div>
 
         <div class="carousel-item container-fluid">
-          <h2 class="features-text">Page Turning</h2>
-          <img class="features-image" src="images/tapping.png" alt="lady-profile">
+          <h6 class="features-text">Page Turning</h6>
+          <img class="features-image" src="images/attentiona.png" alt="lady-profile">
           <p class="features-description">Turning pages of a book
             usually offers a delicate
             sound as pages flit
@@ -192,58 +231,56 @@
       </div>
 
 
-
-
       <a class="carousel-control-prev" href="#features-carousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
+        <span class="carousel-control-prev-icon"></span>
       </a>
       <a class="carousel-control-next" href="#features-carousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
+        <span class="carousel-control-next-icon"></span>
       </a>
     </div>
 
   </section>
 
+  <hr>
 
-<!-- How it works section -->
+  <!-- How it works section -->
 
   <section class="white-section" id="work">
 
     <div class="container-fluid">
+      <div class="work-heading">
+        <h3>How it Works</h3>
+      </div>
       <div class="row">
 
-          <div class="work-box col-lg-6">
-            <img class="work-img" src="images/works.png" alt="Work-Asmr">
-             </div>
+        <div class="work-box col-lg-6">
+          <img class="work-img" src="images/works.png" alt="Work-Asmr">
+        </div>
 
+        <div class="work-box col-lg-6">
 
+          <!-- <h3 class="work-title">How it Works</h3> -->
+          <p class="work-description">“Basically what it means is that you feel a sense of deep relaxation and light but
+            pleasurable brain tingles,”“It’s stimulated in moments of positive personal attention.”</p>
 
+          <p class="work-description">That is, the feeling that comes over your scalp when you’re at the hairdresser, or
+            the feeling of when you were a child and a teacher would kneel beside you to help with a problem.</p>
 
-
-      <div class="work-box col-lg-6">
-      
-        <h3 class="work-title">How it Works</h3>
-        <p class="work-description">“Basically what it means is that you feel a sense of deep relaxation and light but pleasurable brain tingles,”“It’s stimulated in moments of positive personal attention.”</p>
-
-        <p class="work-description">That is, the feeling that comes over your scalp when you’re at the hairdresser, or the feeling of when you were a child and a teacher would kneel beside you to help with a problem.</p>
-        
-        <p class="work-description">"That’s the key context for when ASMR is stimulated. Within that context, it’s the light voice, the light touch, the focused attention that tends to cause people to have that super-relaxing experience that’s often referred to as ASMR,".</p>
-        
-         </div>
-
-        
-
+          <p class="work-description">"That’s the key context for when ASMR is stimulated. Within that context, it’s the
+            light voice, the light touch, the focused attention that tends to cause people to have that super-relaxing
+            experience that’s often referred to as ASMR,".</p>
 
         </div>
-     </div>
-    </section>
-      
+      </div>
+    </div>
+  </section> 
 
 
-<!-- Video Section -->
-      
-         
-    <section class="white-section" id="relax">
+
+  <!-- Video Section -->
+
+
+  <section class="white-section" id="relax">
 
         <div class="container-fluid">
           <div class="row">
@@ -257,29 +294,74 @@
   </section>
 
 
+<hr>
 
-<!-- Contact Secton -->
+  <!-- Rates -->
 
+  <section class="white-section" id="rates">
+
+    <div class="container-fluid">
+      <div class="rates-heading">
+        <h3>Rates</h3>
+      </div>
+      <div class="row">
+        <div class="rates-box col">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Price</th>
+                <th scope="col">Duration</th>             
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>R250</td>
+                <td>30 min.</td>
+              </tr>
+              <tr>
+                <td>R380</td>
+                <td>60 min.</td>
+              </tr>
+              <tr>
+                <td>R600</td>
+                <td>90 min.</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+</div>
+  </section>
+
+  <hr>
+
+  <!-- Contact Secton -->
+ 
   <section class="colored-section" id="contact">
     <div class="container-fluid">
-    <div class="contact-background-image">
+      <div class="contact-heading">
+        <h3>Contact</h3>
+      </div>
+    <!-- <div class="contact-background-image"> -->
     <address>
       <label>Email:</label>
-      <a class="email" href="mailto:shakiraalu@gmail.com">mailto:shakiraalu@gmail.com</a>
+      <a class="email" href="mailto:shakiraalu@gmail.com"> mailto:shakiraalu@gmail.com</a>
       <br>
       <label>Location:</label>  
-      Ascot Road, Milnerton
+       Ascot Road, Milnerton
       <br>
       <label>Cell/Whatsapp Number:</label> 0812163662
     </address> 
       
   
-    </div>
+    <!-- </div> -->
       </div>
-  </section>
+  </section> 
 
 
 
+    <script type="text/javascript" src='js/function.js'></script>
 </body>
 
 </html>

@@ -1,64 +1,105 @@
 
 body {
     font-family: "Montserrat";   
-  
+    background-image: url('../images/bg.png');
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding-bottom: 5%;
+    text-align: center;
   }
 
+
+  
   h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat-Bold";
   }
 
-  p {
+  /* p {
       color: #8f8f8f;
-  }
+  } */
 
+hr {
+  border-bottom: 1px solid #8f8f8f;
+  width: 400px
 
+}
 
-
-nav {
-position: fixed;
+.container-fluid{
+  padding: 7% 15%;
 }
 
 
-  .navbar {
-    padding: 0 0 4.5rem;
-  
-  }
-  
-  .navbar-brand {
+
+
+
+
+
+.navbar{ padding: 0 4.5rem ;}
+
+.nav-link { 
+    color: #8f8f8f; 
+    cursor: pointer;
+}
+
+
+.navbar-brand{
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
-  }
-  
-  .nav-item {
+    cursor: pointer;
+    color: #8f8f8f;
+}
+
+.nav-item {
     padding: 0 18px;
   }
-  
-  .nav-link {
+
+
+.nav-link{ 
+    margin-right: 1em !important;
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
-  }
-  
+}
 
-  #title {
+.nav-link:hover{  color: #fff; }
 
-    background-image: url(../images/header.png);
-    background-repeat: no-repeat;
-  background-size: cover;
-    color: #fff;
-    text-align: left;
-  
-  }
-  
-  #title .container-fluid {
-    padding: 5% 5% 20% 5%;
-  }
+.nav-brand:hover{  color: #fff;
+}
 
+.navbar-collapse{ justify-content: flex-end;}
+
+
+
+.navbar-collapse{
+    justify-content: flex-end;
+   }
+
+/*
+   #title {
+
+
+   
+     
+     }
+
+ */
+   
+    #title .container-fluid {
+       padding: 7% 15%;
+       
+     }
+    
+.heading {
+    padding-top: 10%;
+    text-align: start;
+}
+      
   .big-heading {
     font-family: "Montserrat-Black";
     font-size: 3.5rem;
-    padding: 0 0 2rem;
+    padding: 2rem 0 2rem;
     color: #fff;
    
   }
@@ -66,44 +107,50 @@ position: fixed;
     font-family: "Montserrat-Black";
     font-size: 2rem;
     color: #8f8f8f;
-    padding: 0 0 2rem;
+    
   }
 
+ 
 
 
 /* About Section */
+ 
 
 #about {
 text-align: center;
+color: #fff;
+
+/* padding: 7% 5%; */
   }
   
   #about .container-fluid {
-    padding: 5% 5% 5%;
+    padding: 7% 5%;
   }
 
 
 
-  .about-title {
-    font-size: 1.5rem;
+  /* .about-title {
     color: #8f8f8f;
-    font-weight: bold;
+ 
+    
   }
 
   .about-description {
     color: #8f8f8f;
-  }
+    font-weight: bolder;
+  } 
   
   .about-box {
-    padding: 4%;
+    /* padding: 4%; *
     
   }
-  
+  */
   
   .about-img {
-    width: 50%;
-   
-  }
-  
+    width: 60%;
+    /* padding: 4%; */
+  } */
+
 
 
 
@@ -114,27 +161,36 @@ text-align: center;
 }
 
 #features .container-fluid {
-  padding: 5% 5% 5%;
+  padding: 7% 15% ;
   }
   
+
+
+.features-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: bolder;
+}
+
   
   .features-text {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5;
-    color: #8f8f8f;
-    font-weight: bold;
+    color: #fff;
+    /* font-weight: bold; */
   }
   
   .features-image {
-    width: 20%;
+    width: 70%;
     border-radius: 100%;
     margin: 20px;
   }
   
   .features-description {
-    color: #8f8f8f;
+    color: #fff;
   }
-  
+   
 
 /* How it works section */
 
@@ -142,10 +198,11 @@ text-align: center;
 
 #work {
   text-align: center;
+  color: #fff;
     }
     
 #work .container-fluid {
-  padding: 5% 5% 5%;
+  padding: 7% 15% ;
     }
 
   .work-title {
@@ -155,7 +212,7 @@ text-align: center;
   }
 
   .work-description {
-    color: #8f8f8f;
+    color: #fff;
   }
   
   
@@ -164,7 +221,7 @@ text-align: center;
   }
   
   .work-img {
-    width:50%;
+    width:80%;
   }
 
 #relax {
@@ -175,8 +232,19 @@ text-align: center;
 #relax .container-fluid {
   padding: 5% 5% 5%;
 }
+ 
 
 
+/* Rates */
+
+#rates {
+  text-align: center;
+  color: #fff;
+}
+
+#rates .container-fluid {
+  padding: 7% 15% ;
+}
 
 
 /* Contact Section */
@@ -184,76 +252,41 @@ text-align: center;
 
 #contact {
     text-align: center;
+    color: #fff;
     
 }
 
   #contact .container-fluid {
-    padding: 3% 5% 3%;
+    padding: 3% 15% ;
   }
   
   
   
   
   address {
-    color: #8f8f8f;
+    color: #fff;
     padding: 0 18px;
   }
   
   .email {
-    color: #8f8f8f;
+    color: #fff;
   }
 
-  .colored-section {
-    position: relative;
-    width: 100%;
-    background-image: url(../images/sides.png);
-    background-repeat: no-repeat;
-   
+
+/* 
+
+
+
+   @media screen and (max-width:1000px) {
+
   
-  }
+   }
 
 
 
-  @media screen and (max-width:1000px) {
+   /* @media screen and (min-width:600px) {
 
-.big-heading {
-  font-size: 5rem;
-}
-
-.tag-heading {
-  font-size: 2.5rem;
-}
-
-.about-title {
-  font-size: 4rem;
-}
-
-.about-description {
-  font-size: 2rem;
-}
-  
-  
-    .work-title {
-      font-size: 4rem;
+    .heading {
+        padding-top: 40%;
     }
-    
-    .work-description {
-      font-size: 2rem;
-    }
-   
-    address {
-      font-size: 2rem;
-    }
-
-
-
-  }
-
-
-
-  @media screen and (max-width:1400px) {
- 
-      
-
-
-  }
+   } */
