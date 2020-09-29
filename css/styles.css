@@ -15,6 +15,9 @@ body {
 
  
 
+
+
+
 hr {
   border-bottom: 1px solid #8f8f8f;
   width: 400px
@@ -86,7 +89,7 @@ hr {
       
   .big-heading {
     font-family: "Montserrat-Black";
-    font-size: 3.5rem;
+    font-size: 5rem;
     padding: 2rem 0 2rem;
     color: #fff;
    
