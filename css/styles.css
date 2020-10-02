@@ -19,8 +19,9 @@ body {
 
 
 
-header #title .header{
-  height: 800px;
+section #title .header{
+  /* height: 800px; */
+  /* width: 100vw; */
 }
 
 
@@ -71,8 +72,9 @@ header #title .header{
 
 #title {
   background-image: url('../images/header.png');
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
     height: 800px;
 }
 
@@ -81,7 +83,7 @@ header #title .header{
 
    
     #title .container-fluid {
-       padding: 3%;
+       padding: 5% 15%;
        
      }
     
