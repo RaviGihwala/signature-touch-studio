@@ -1,8 +1,8 @@
 
 body {
     font-family: "Montserrat";   
-   
     text-align: center;
+   
   }
 
 
@@ -19,15 +19,10 @@ body {
 
 
 
-section #title .header{
-  /* height: 800px; */
-  /* width: 100vw; */
-}
 
 
 
-
-.navbar{ padding: 3% 5rem ;}
+.navbar{ padding: 0 0 5rem ;}
 
 .nav-link { 
     color: #8f8f8f; 
@@ -73,32 +68,25 @@ section #title .header{
 #title {
   background-image: url('../images/header.png');
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
-    height: 800px;
+
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 
+   
 
-
-   
-    #title .container-fluid {
-       padding: 5% 15%;
-       
-     }
-    
-.heading {
-  margin-top: 5rem;
-    padding: 5rem;
-   
-   
-}
       
   .big-heading {
     font-family: "Montserrat-Black";
     font-size: 4rem;
     padding: 2rem 0 2rem;
     color: #f6f1ee;
+    margin-top: 20%;
    
   }
   .tag-heading {
@@ -117,7 +105,7 @@ section #title .header{
 
 #about {
 text-align: center;
-color: #4f7d82;
+color: #1499a8
 
 
   }
@@ -142,7 +130,7 @@ color: #4f7d82;
 /* Features Section */
 
 #features {
-  background-color: #4f7d82;
+  background-color: #1499a8;
     text-align: center;
 }
 
@@ -186,7 +174,7 @@ color: #4f7d82;
 
 #work {
   text-align: center;
-  color: #4f7d82;
+  color: #1499a8
     }
     
 #work .container-fluid {
@@ -195,12 +183,12 @@ color: #4f7d82;
 
   .work-title {
     font-size: 1.5rem;
-    color: #4f7d82;
+    color: #1499a8;
     font-weight: bold;
   }
 
   .work-description {
-    color: #4f7d82;
+    color: #1499a8
   }
   
   
@@ -219,6 +207,7 @@ color: #4f7d82;
 
 #relax .container-fluid {
   padding: 5% 5% 5%;
+  background-color: #1499a8;
 }
  
 
@@ -226,9 +215,9 @@ color: #4f7d82;
 /* Rates */
 
 #rates {
-  background-color: #4f7d82;
+  /* background-color: #4f7d82; */
   text-align: center;
-  color: #f6f1ee;
+  color: #1499a8
 }
 
 #rates .container-fluid {
