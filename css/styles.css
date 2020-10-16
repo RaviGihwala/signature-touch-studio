@@ -13,6 +13,9 @@ body {
 
  
 
+.container-fluid {
+  padding: 7% 15%;
+}
 
 
 
@@ -21,8 +24,7 @@ body {
 
 
 
-
-.navbar{ padding: 0 0 5rem ;}
+.navbar{ padding: 0 4.5rem ;}
 
 .nav-link { 
     color: #8f8f8f; 
@@ -87,12 +89,13 @@ body {
     padding: 2rem 0 2rem;
     color: #f6f1ee;
     margin-top: 20%;
+    font-weight: bolder;
    
   }
   .tag-heading {
-    font-family: "Montserrat-Black";
-    font-size: 2rem;
-    color: #8f8f8f;
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    color: #f6f1ee;
     font-weight: bold;
     
   }
@@ -115,6 +118,14 @@ color: #1499a8
   }
 
 
+  .about-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #1499a8;
+    font-weight: bolder;
+    /* padding-top: 5%; */
+  }
+
 .about-box {
   padding: 4%;
 }
@@ -129,26 +140,72 @@ color: #1499a8
 
 /* Features Section */
 
-#features {
+
+#gallery {
   background-color: #1499a8;
     text-align: center;
 }
 
-#features .container-fluid {
+#gallery .container-fluid {
   padding: 7% 15% ;
   }
   
 
 
-.features-heading {
+.gallery-heading {
   font-size: 3rem;
   line-height: 1.5;
   color: #f6f1ee;
   font-weight: bolder;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 
-  
+  .gallery { 
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.gallery img { 
+    width: 100%; 
+    height: auto;
+    transition: 500ms;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    page-break-inside: avoid; 
+    -webkit-column-break-inside: avoid; 
+    break-inside: avoid; 
+}
+.gallery img:hover {
+    opacity: 1;
+}
+.modal-img,.model-vid{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: table
+}
+.modal-body{
+  padding: 0px;
+}
+.modal-dialog {
+  height: 100%;
+      position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-content {
+  border: none;
+}
+
+/*
   .features-text {
     font-size: 1.5rem;
     line-height: 1.5;
@@ -167,6 +224,7 @@ color: #1499a8
     font-size: 1rem;
   }
    
+*/
 
 /* How it works section */
 
@@ -181,11 +239,14 @@ color: #1499a8
   padding: 7% 15% ;
     }
 
-  .work-title {
-    font-size: 1.5rem;
-    color: #1499a8;
-    font-weight: bold;
-  }
+
+    .work-heading {
+      font-size: 3rem;
+      line-height: 1.5;
+      color: #1499a8;
+      font-weight: bolder;
+      /* padding-top: 5%; */
+    }
 
   .work-description {
     color: #1499a8
@@ -208,6 +269,15 @@ color: #1499a8
 #relax .container-fluid {
   padding: 5% 5% 5%;
   background-color: #1499a8;
+}
+
+
+.selfcare-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #f6f1ee;
+  font-weight: bolder;
+  /* padding-top: 5%; */
 }
  
 
@@ -253,3 +323,27 @@ color: #1499a8
     color: #f6f1ee;
   }
 
+@media screen and (max-width: 767px) {
+	.gallery { 
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+	.gallery div { margin: 0; 
+        width: 200px;
+    }
+  .modal-dialog {
+        margin: 0 8vw;
+    }
+}
+@media screen and (max-width: 479px) {
+    .gallery { 
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    .gallery div { 
+        margin: 0; 
+        width: 200px;
+    }
+}

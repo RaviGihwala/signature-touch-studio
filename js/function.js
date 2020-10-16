@@ -3,7 +3,7 @@ $(document).ready(function(){
     
    });
 
-   // Code By Webdevtrick ( https://webdevtrick.com )
+  
 $(document).ready(function () {
   $(".single-image").click(function(){
     var t = $(this).attr("src");
